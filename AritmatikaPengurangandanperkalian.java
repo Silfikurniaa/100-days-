@@ -3,7 +3,7 @@ package aritmatikapengurangan;
 
 import java.util.Scanner;
 
-public class AritmatikaPengurangan {
+public class AritmatikaPengurangandanperkalian {
 
     public static void main(String[] args) {
 int angka;
