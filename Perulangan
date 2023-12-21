@@ -1,0 +1,22 @@
+package perulangan;
+import java.util.Scanner;
+public class mainn {
+
+  public static void main(String[] args) {;
+             Scanner input = new Scanner(System.in);
+
+        System.out.print("Masukkan nilai minimum: ");
+        int min = input.nextInt();
+
+        System.out.print("Masukkan nilai maksimum: ");
+        int max = input.nextInt();
+
+        System.out.print("Masukkan jumlah perulangan: ");
+        int ulang = input.nextInt();
+
+        for (int i = 0; i < ulang; i++) {
+            int acak = (int) (Math.random() * (max - min + 1) + min);
+            System.out.println("Angka acak ke-" + (i + 1) + ": " + acak);
+        }
+        }
+    }
