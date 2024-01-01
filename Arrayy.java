@@ -1,15 +1,17 @@
 
-package arrayy;
+package pkg100.days;
+
+import java.util.Arrays;
+
 
 public class arrayy {
-
     public static void main(String[] args) {
-int[]data={22,24,18,90};
-int i=0;
-do{
-    System.out.println(data[i]);
-    i++;
-}while(i<data.length);
+        int [] nilai = {95, 55, 82, 100, 78, 89,69,60,80};
+        Arrays.sort(nilai);
+        int i = 0;
+        while(i < nilai.length){
+            System.out.println(nilai[i]);
+            i++;
     }
-    
+}
 }
