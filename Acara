@@ -1,0 +1,38 @@
+package com.acara;
+
+import java.util.Scanner;
+
+
+public class main {
+
+  public static void main(String[] args) {
+   Scanner in=new Scanner(System.in);
+   System.out.println("Selamat datang di Program Opsi Acara Reuni!");
+        System.out.println("Silakan pilih opsi acara reuni yang ingin Anda ikuti:");
+        System.out.println("1. Makan malam reuni di restoran");
+        System.out.println("2. Piknik reuni di taman");
+        System.out.println("3. Acara reuni di gedung serbaguna");
+        System.out.println("4. Pertunjukan musik reuni di auditorium");
+        System.out.print("Pilihan Anda (1-4): ");
+        int pilih = in.nextInt();
+        
+        switch (pilih) {
+            case 1:
+                System.out.println("Anda memilih makan malam reuni di restoran.");
+                break;
+            case 2:
+                System.out.println("Anda memilih piknik reuni di taman.");
+                break;
+            case 3:
+                System.out.println("Anda memilih acara reuni di gedung serbaguna.");
+                break;
+                case 4:
+                System.out.println("Anda memilih pertunjukan musik reuni di auditorium.");
+                break;
+            default:
+                System.out.println("Opsi yang Anda pilih tidak valid.");
+        }
+        
+        in.close();
+  }
+}
